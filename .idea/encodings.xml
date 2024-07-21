@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/spring-base/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-base/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-detail/spring-detail-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-detail/spring-detail-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-detail/spring-detail-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-detail/spring-detail-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-detail/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-detail/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-entity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-entity/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-product/spring-product-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-product/spring-product-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-product/spring-product-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-product/spring-product-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-product/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-product/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-user/spring-user-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-user/spring-user-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-user/spring-user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-user/spring-user-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-user/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

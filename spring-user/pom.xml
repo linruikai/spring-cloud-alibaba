@@ -6,15 +6,22 @@
     <parent>
         <groupId>org.example</groupId>
         <artifactId>spring-cloud-alibaba</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
     </parent>
 
     <artifactId>spring-user</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>spring-user-service</module>
+        <module>spring-user-client</module>
+    </modules>
 
-    <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>spring-entity</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>
