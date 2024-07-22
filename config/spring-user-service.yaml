@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    base:
+      url: jdbc:mysql://localhost:3306/base?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+      username: root
+      password: root
+      driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    base:
+      database: 0
+      host: localhost
+      port: 6379
+  kafka:
+    producer:
+      bootstrap-servers: localhost:9092
+    consumer:
+      bootstrap-servers: localhost:9092
+      group-id: default
+    topics:
+      topic-a: topic-a

@@ -1,0 +1,22 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: spring-product
+          uri: lb://spring-product-service
+          predicates:
+            - Path=/product/**
+          filters:
+            - StripPrefix=1
+        - id: spring-detail
+          uri: lb://spring-detail-service
+          predicates:
+            - Path=/detail/**
+          filters:
+            - StripPrefix=1
+        - id: spring-user
+          uri: lb://spring-user-service
+          predicates:
+            - Path=/user/**
+          filters:
+            - StripPrefix=1
